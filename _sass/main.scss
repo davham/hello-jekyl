@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.brand {
+    text-decoration: none;
+}
+
+.current {
+    color: green;
+  }
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list li a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-list li a:hover {
+    color: green;
+    border-bottom: 2px solid green;
+}
